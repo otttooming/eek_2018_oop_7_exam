@@ -39,6 +39,8 @@
     <Compile Include="RAM_malu.cs" />
     <Compile Include="Protsessor.cs" />
     <Compile Include="Salvestusseade.cs" />
+    <Compile Include="Arvutiprotsessor.cs" />
+    <Compile Include="Minuarvutiprotsessor.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
