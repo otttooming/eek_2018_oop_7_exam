@@ -42,6 +42,7 @@ namespace eek_exam
 
         public virtual void Tryki() {
             Console.WriteLine("Komponent");   
+            Console.Write("ID: {0,3} Kaal: {1,8} {2,8} {3,8}", ID, kaal, tihedus, ArvutaRuumala());
         }
 
         public abstract string Valjasta_tyyp();

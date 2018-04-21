@@ -30,9 +30,9 @@ namespace eek_exam
             */
             Console.WriteLine();
 
-            Komponent Ram1 = new RAM_malu(1024, "SODIMM");
-            Komponent Protsessor1 = new Protsessor(3.5);
-            Komponent Salvestus1 = new Salvestusseade("SSD", 512);
+            Komponent Ram1 = new RAM_malu(1, 100, 10, 1024, "SODIMM");
+            Komponent Protsessor1 = new Protsessor(2, 200, 10, 3.5);
+            Komponent Salvestus1 = new Salvestusseade(3, 300, 10, "SSD", 512);
 
             List<Komponent> Komponendid = new List<Komponent>();
             Komponendid.Add(Ram1);

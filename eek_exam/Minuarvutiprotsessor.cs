@@ -5,8 +5,8 @@ namespace eek_exam
     {
         public double hind;
 
-        public Minuarvutiprotsessor(double sagedus = 0, string firma = "---", double hind = 0)
-            : base(sagedus, firma)
+        public Minuarvutiprotsessor(int ID = 0, double kaal = 0, double tihedus = 0, double sagedus = 0, string firma = "---", double hind = 0)
+            : base(ID, kaal, tihedus, sagedus, firma)
         {
             this.hind = hind;
         }

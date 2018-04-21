@@ -6,13 +6,15 @@ namespace eek_exam
         protected string tyyp;
         public double salvestusmaht { get; set; }
 
-        public Salvestusseade(string tyyp = "", double salvestusmaht = 0)
+        public Salvestusseade(int ID = 0, double kaal = 0, double tihedus = 0, string tyyp = "", double salvestusmaht = 0)
+            : base(ID, kaal, tihedus)
         {
             this.tyyp = tyyp;
             this.salvestusmaht = salvestusmaht;
         }
 
         public Salvestusseade(Salvestusseade ob)
+            : base(ob)
         {
             this.tyyp = ob.tyyp;
             this.salvestusmaht = ob.salvestusmaht;
@@ -20,12 +22,13 @@ namespace eek_exam
 
         public override void Tryki()
         {
+            base.Tryki();
             Console.Write(" {0,3} {1,8}  ", tyyp, salvestusmaht);
         }
 
         public override string Valjasta_tyyp()
         {
-            return "A";
+            return "Salvesusseade";
         }
     }
 }

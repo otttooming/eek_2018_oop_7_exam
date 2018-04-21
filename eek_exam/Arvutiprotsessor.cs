@@ -5,8 +5,8 @@ namespace eek_exam
     {
         public string firma;
 
-        public Arvutiprotsessor(double sagedus = 0, string firma = "---")
-            :base(sagedus)
+        public Arvutiprotsessor(int ID = 0, double kaal = 0, double tihedus = 0, double sagedus = 0, string firma = "---")
+            :base(ID, kaal, tihedus, sagedus)
         {
             this.firma = firma;
         }
