@@ -1,7 +1,7 @@
 ﻿using System;
 namespace eek_exam
 {
-    public class Komponent : IRuumala
+    abstract class Komponent : IRuumala
     {
         protected int ID;
         protected double kaal;
@@ -39,5 +39,7 @@ namespace eek_exam
 
         public static bool operator ==(Komponent a, Komponent b) { return a.ArvutaRuumala() == b.ArvutaRuumala(); }
         public static bool operator !=(Komponent a, Komponent b) { return a.ArvutaRuumala() != b.ArvutaRuumala(); }
+
+        public abstract void Valjasta_tyyp();
     }
 }
