@@ -3,7 +3,7 @@ namespace eek_exam
 {
     class Protsessor : Komponent
     {
-        protected double sagedus;
+        public double sagedus { get; set; }
 
         public Protsessor(double sagedus = 0)
         {

@@ -4,7 +4,7 @@ namespace eek_exam
     class Salvestusseade : Komponent
     {
         protected string tyyp;
-        protected double salvestusmaht;
+        public double salvestusmaht { get; set; }
 
         public Salvestusseade(string tyyp = "", double salvestusmaht = 0)
         {

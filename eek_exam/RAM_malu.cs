@@ -3,7 +3,7 @@ namespace eek_exam
 {
     class RAM_malu : Komponent
     {
-        protected int malumaht;
+        public int malumaht { get; set; }
         protected string malutyyp;
 
         public RAM_malu(int malumaht = 0, string malutyyp = "")
