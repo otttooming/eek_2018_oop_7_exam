@@ -30,5 +30,14 @@ namespace eek_exam
 
             return ruumala;
         }
+
+        public static bool operator >(Komponent a, Komponent b) { return a.ArvutaRuumala() > b.ArvutaRuumala(); }
+        public static bool operator <(Komponent a, Komponent b) { return a.ArvutaRuumala() < b.ArvutaRuumala(); }
+
+        public static bool operator >=(Komponent a, Komponent b) { return a.ArvutaRuumala() >= b.ArvutaRuumala(); }
+        public static bool operator <=(Komponent a, Komponent b) { return a.ArvutaRuumala() <= b.ArvutaRuumala(); }
+
+        public static bool operator ==(Komponent a, Komponent b) { return a.ArvutaRuumala() == b.ArvutaRuumala(); }
+        public static bool operator !=(Komponent a, Komponent b) { return a.ArvutaRuumala() != b.ArvutaRuumala(); }
     }
 }
