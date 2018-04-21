@@ -36,6 +36,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="IRuumala.cs" />
     <Compile Include="Komponent.cs" />
+    <Compile Include="RAM_malu.cs" />
+    <Compile Include="Protsessor.cs" />
+    <Compile Include="Salvestusseade.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
