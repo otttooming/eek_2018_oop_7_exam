@@ -41,6 +41,7 @@
     <Compile Include="Salvestusseade.cs" />
     <Compile Include="Arvutiprotsessor.cs" />
     <Compile Include="Minuarvutiprotsessor.cs" />
+    <Compile Include="KomponentRuumalaJargi.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
