@@ -18,6 +18,11 @@ namespace eek_exam
             this.malutyyp = ob.malutyyp;
         }
 
+        public override void Tryki()
+        {
+            Console.Write(" {0,3} {1,8}  ", malumaht, malutyyp);
+        }
+
         public override string Valjasta_tyyp()
         {
             return "A";

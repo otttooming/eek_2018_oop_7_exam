@@ -18,6 +18,11 @@ namespace eek_exam
             this.salvestusmaht = ob.salvestusmaht;
         }
 
+        public override void Tryki()
+        {
+            Console.Write(" {0,3} {1,8}  ", tyyp, salvestusmaht);
+        }
+
         public override string Valjasta_tyyp()
         {
             return "A";

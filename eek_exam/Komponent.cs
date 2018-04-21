@@ -40,6 +40,10 @@ namespace eek_exam
         public static bool operator ==(Komponent a, Komponent b) { return a.ArvutaRuumala() == b.ArvutaRuumala(); }
         public static bool operator !=(Komponent a, Komponent b) { return a.ArvutaRuumala() != b.ArvutaRuumala(); }
 
+        public virtual void Tryki() {
+            Console.WriteLine("Komponent");   
+        }
+
         public abstract string Valjasta_tyyp();
     }
 }

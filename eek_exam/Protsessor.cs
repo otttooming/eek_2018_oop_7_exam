@@ -15,6 +15,11 @@ namespace eek_exam
             this.sagedus = ob.sagedus;
         }
 
+        public override void Tryki()
+        {
+            Console.Write(" {0,3}", sagedus);
+        }
+
         public override string Valjasta_tyyp()
         {
             return "A";
